@@ -1,0 +1,15 @@
+.title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.main {
+  margin: 32px 0;
+  font-size: 20px;
+}
+
+.list-action {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}

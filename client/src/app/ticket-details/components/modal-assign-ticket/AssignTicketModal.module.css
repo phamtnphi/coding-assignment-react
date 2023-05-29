@@ -1,0 +1,41 @@
+.title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.main {
+  display: flex;
+  gap: 32px;
+  width: 100%;
+  margin: 32px 0;
+  font-size: 20px;
+}
+
+.row-title {
+  margin-top: 8px;
+}
+
+.row-title-error {
+  margin-top: 8px;
+  color: #dc4c64;
+}
+
+.select-container  {
+  flex: 1;
+}
+
+.abs__control {
+  color: #dc4c64;
+  border-color: #dc4c64;
+}
+
+.error {
+  margin-top: 4px;
+  color: #dc4c64;
+}
+
+.list-action {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}

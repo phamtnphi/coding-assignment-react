@@ -1,0 +1,21 @@
+.container {
+  margin: 12px 0;
+  font-size: 20px;
+}
+
+.container a {
+  display: flex;
+  align-items: center;
+  text-decoration: unset;
+}
+
+.button-action {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.button-text {
+  padding-left: 8px;
+  color: black;
+}

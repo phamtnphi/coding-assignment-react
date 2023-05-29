@@ -1,2 +1,42 @@
-.tickets {
+.first-line {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.action-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.select-wrapper {
+  width: 200px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table-cell-header {
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.table-cell-body {
+  padding: 10px 0;
+  font-weight: unset;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.button-action {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
 }

@@ -1,0 +1,40 @@
+.title {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  margin: 32px 0;
+  font-size: 20px;
+}
+
+.row-title {
+  margin-top: 8px;
+}
+
+.row-title-error {
+  margin-top: 8px;
+  color: #dc4c64;
+}
+
+.row-field input {
+  width: 100%;
+}
+
+.row-field-error input {
+  width: 100%;
+  border-color: #dc4c64;
+}
+
+.error {
+  margin-top: 4px;
+  color: #dc4c64;
+}
+
+.list-action {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}

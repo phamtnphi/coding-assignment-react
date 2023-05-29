@@ -1,0 +1,19 @@
+.yesValue {
+  min-width: 150px;
+  display: inline-block;
+  padding: 4px 8px;
+  color: #14a44d;
+  border: 1px solid #14a44d;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.noValue {
+  min-width: 150px;
+  display: inline-block;
+  padding: 4px 8px;
+  color: #dc4c64;
+  border: 1px solid #dc4c64;
+  border-radius: 12px;
+  text-align: center;
+}
